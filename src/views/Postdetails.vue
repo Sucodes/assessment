@@ -1,4 +1,5 @@
 <template>
+
   <section id="post">
     <div>
       <p> <strong> By Ryan Jackson . </strong>  2 Month Ago </p>
@@ -117,10 +118,13 @@
       </article>
     </div>
   </section>
+
+  <router-link to="/"><button>Back to Home</button></router-link>
+  
 </template>
 
 <script>
 export default {
-    name: "Post-details",
+  name: "Post-details",
 }
 </script>

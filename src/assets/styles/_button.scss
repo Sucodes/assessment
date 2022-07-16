@@ -1,0 +1,13 @@
+button {
+    background-color: $linkColor;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: $headingColor;
+
+    &:hover {
+        color: $white;
+        @extend %hoverEffect;
+        text-decoration: underline;
+    }
+}

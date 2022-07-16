@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Bloglisting from '../views/Bloglisting.vue'
 import Postdetails from "../views/Postdetails.vue" 
+import Menubutton from "../components/Menubutton"
 
 const routes = [
   {
@@ -12,8 +13,14 @@ const routes = [
     path: '/Postdetails',
     name: 'Post Details',
     component: Postdetails
+  },
+  {
+    path: '/Menubutton',
+    name: 'Menu',
+    component: Menubutton
   }
 ]
+
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes

@@ -1,0 +1,44 @@
+#menu {
+    @include flexCenter(column);
+    align-items: stretch;
+    background-color: $black;
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    transition: 3s ease-out;
+
+    ul {
+        height: 100%;
+        @include flexCenter(column);
+        justify-content: space-evenly;
+        margin: 0px;
+        padding: 0px;
+
+        li {
+            height: 50px;
+            text-align: center;
+            list-style-type: none;
+            color: $textColor;
+        }
+
+        a {
+            font-size: 2rem;
+            height: 50px;
+            color: $textColor;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+                color: $white;
+            }
+
+            img {
+                width: 20px;
+                border: 1px solid $headingColor;
+                border-radius: 30%;
+                padding: 1px;
+                background-color: $textColor;
+            }
+        }
+    }
+}

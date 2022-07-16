@@ -3245,6 +3245,11 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
   integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
 
+flutterwave-vue-v3@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/flutterwave-vue-v3/-/flutterwave-vue-v3-1.0.9.tgz#3895170bd0157377025f2c51b846bcf2ef7e3397"
+  integrity sha512-iYklQMVG5eWumWvXKDyfU3QKnKQUc3s17YEZXTfqaCoy+0Na379WS/SqL+eeV60LK0XUt3JJtOJSkDoZSZLTgA==
+
 follow-redirects@^1.0.0:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
