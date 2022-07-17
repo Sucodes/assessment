@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Bloglisting from '../views/Bloglisting.vue'
 import Postdetails from "../views/Postdetails.vue" 
 import Menubutton from "../components/Menubutton"
+import Listedpost from "../components/Listedpost.vue"
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/Menubutton',
     name: 'Menu',
     component: Menubutton
+  },
+  {
+    path: '/Listedpost',
+    name: 'Listedpost',
+    component: Listedpost
   }
 ]
 

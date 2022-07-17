@@ -3,7 +3,7 @@
         v-if="showMenu"
         :toggle="ToggleMenu"
     />
-
+    
 </template>
 
 <script>
