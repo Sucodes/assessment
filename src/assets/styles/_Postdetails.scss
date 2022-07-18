@@ -115,6 +115,10 @@
     display: inline-flex;
     padding-top: 50px;
     font-size: 1.3rem;
+
+    img {
+      width: 300px;
+    }
   }
 
   #more-articles {
@@ -129,6 +133,7 @@
 
 @media (min-width: 800px) {
   #post {
+    padding-top: 50px;
     margin: 0px 80px;
     display: inline-flex;
     font-size: 1.5rem;
